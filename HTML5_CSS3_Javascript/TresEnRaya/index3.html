@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<meta charset="utf-8">
+	<title>TresEnRaya</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/TER.css">
+	
+	<script type="text/javascript" src="js/3Rayas.js" ></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body onload="limpiar()">
+	<header>¿Juegas a las Tres en Raya?</header>
+	
+	<p>Pincha en la casilla que desees</p>
+	<table >
+		<thead>Juguemos</thead>
+		<tbody >
+	
+			<tr>
+				<td  onclick="tirada(0)"><img id="celda0" src="img/cardBack.jpg" ></td>
+				<td  onclick="tirada(1)"><img id="celda1" src="img/cardBack.jpg"></td>
+				<td  onclick="tirada(2)"><img id="celda2" src="img/cardBack.jpg"></td>
+			</tr>
+			<tr>
+				<td  onclick="tirada(3)"><img id="celda3" src="img/cardBack.jpg"></td>
+				<td  onclick="tirada(4)"><img id="celda4" src="img/cardBack.jpg"></td>
+				<td  onclick="tirada(5)"><img id="celda5" src="img/cardBack.jpg"></td>
+			</tr>
+			<tr>
+				<td  onclick="tirada(6)"><img id="celda6" src="img/cardBack.jpg"></td>
+				<td  onclick="tirada(7)"><img id="celda7" src="img/cardBack.jpg"></td>
+				<td  onclick="tirada(8)"><img id="celda8" src="img/cardBack.jpg"></td>
+			</tr>
+			
+			<button onclick="limpiar()"> Empieza de nuevo </button>	
+			
+			
+			
+		</tbody>
+	</table>
+</body>
+</html>
